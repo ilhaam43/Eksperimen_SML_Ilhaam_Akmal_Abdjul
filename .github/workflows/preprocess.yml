@@ -6,6 +6,9 @@ on:
       - 'preprocessing/**'
       - 'employee_data_raw.csv'
 
+permissions:
+  contents: write
+
 jobs:
   run-preprocessing:
     runs-on: ubuntu-latest
