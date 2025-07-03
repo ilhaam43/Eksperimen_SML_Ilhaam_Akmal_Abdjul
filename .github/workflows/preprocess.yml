@@ -38,5 +38,3 @@ jobs:
           git add preprocessing/employee_data_preprocessing.csv
           git commit -m "Update preprocessed data via GitHub Actions"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
